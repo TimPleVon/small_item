@@ -5,6 +5,7 @@ import store from './store'
 import '@/utils/vant-ui'
 import 'amfe-flexible'
 import http from './utils/request'
+import './styles/index.scss'
 Vue.config.productionTip = false
 Vue.prototype.$http = http
 new Vue({
